@@ -1,0 +1,86 @@
+body {
+    background-image: url('../../assets/img/background.jpg');
+background-size: cover;
+background-position: center;
+height: 100vh;
+width: 100vw;
+display: flex;
+justify-content: space-around;
+}
+
+section {
+    background-color: rgba(2, 1, 1, 0.5);
+    padding-left: 2rem;
+    padding-right: 2rem;
+    height:80%;
+    width: 500px;;
+}
+p{
+    color: white;
+}
+li{
+    color: white;
+}
+h1{
+    text-align: center;
+    color:white;
+    padding-top: 30%;
+    font-size:xx-large;
+    
+}
+.auth-container{
+    width: 100%;
+    display: flex;
+    justify-content:space-between;
+}
+
+
+.button {
+    color: white;
+    text-align:  center;
+    width: 30%;
+    height: 30px;
+    
+    
+}
+.test{
+    color: white;
+}
+#loginbutton{
+    background-color: red;
+    margin-top:100px;
+    width: 150px;
+   
+}
+#registerbutton{
+    background-color: green;
+    margin-top:100px;
+    width: 150px;
+}
+.play-button-container {
+    width: 100%;
+
+}
+.quiz{
+    color: white;
+    
+    width: 400px;
+    background-color: blue;
+    padding-right:25px;
+    }
+.question{
+    margin-top: 200px;
+    border-left: 5px solid red;
+}
+.mcq{
+    justify-content: space-around;
+}
+.quizquestion{
+    color: white;
+}
+.toast-valid{
+    background-color:green;
+}
+.toast-invalid{
+    background-color: red;
+}
